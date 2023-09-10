@@ -8,14 +8,26 @@
     <meta name="keywords" content="app free budget finance">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+    <!-- This is an A11y Change -->
+    <style>    
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+    </style>
 </head>
 <body>
 
+<!-- This is an A11y Change -->
 <a href="#main" class="skip">Skip to content</a>
 
     <nav>
         <ul>
+            <!-- This is a Semantic HTML Change -->
             <li><a href="/">Homepage</a></li>
+            <!-- This is an A11y Change -->
+            <li aria-haspopup="true"></li>
             <li><a href="/about.html">About</a></li>
             <li><a href="/login.html">Login</a></li>
             <li><a href="https://google.com">Google</a></li>
@@ -32,18 +44,26 @@
         <div class="page-area">
 
             <article>
+                
                 <h1>Stay on track</h1>
-                <p>
+                <!-- This is an SEO Change -->
+                <meta name="description" content="Tips for staying on track">
+
+                <!-- This is a Semantic HTML Change -->
+                <h2>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
                     app will help you with that!
-                </p>
+                </h2>
             </article>
     
             <article>
                 <h1>Alerts</h1>
+
                 <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                   <!-- This is a Semantic HTML Change --> 
+                    <i>
+                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.</i>
                 </p>
             </article>
     
@@ -57,14 +77,18 @@
             </article>
     
             <article>
-                <h1>Free</h1>
+                <!-- This is an SEO Change -->
+                <header>
+                <h1>Free</h1></header>
                 <p>
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </article>
     
             <article>
-                <h1>Stay on track</h1>
+                <!-- This is an SEO Change -->
+                <header>
+                <h1>Stay on track</h1></header>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
